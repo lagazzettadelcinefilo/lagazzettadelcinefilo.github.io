@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>La gazzetta del cinefilo</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><font face="Times New Roman" size="5">La gazzetta del cinefilo</font></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="FAQ.html">Suggerimenti</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Film</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="Neorealismo.html">Neorealismo</a></li>
+              <li><a class="dropdown-item" href="Horror.html">Horror all'italiana</a></li>
+              <li><a class="dropdown-item" href="Commedia.html">Commedia all'italiana</a></li>
+              <li><a class="dropdown-item" href="Denuncia.html">Il cinema di denuncia</a></li>
+              <li><a class="dropdown-item" href="Fellini.html">Lo stile felliniano</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="carousel1.jpeg" class="d-block w-100" alt="ladri di biciclette" >
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Ladri di biciclette</h3>
+        <a href="Neorealismo.html" class="link-light">Neorealismo</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="carousel2.jpeg" class="d-block w-100" alt="la maschera del demonio">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>La maschera del demonio</h3>
+        <a href="Horror.html" class="link-light">Horror all'italiana</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="carousel3.jpeg" class="d-block w-100" alt="divorzio all'italiana">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Divorzio all'italiana</h3>
+        <a href="Commedia.html" class="link-light">Commedia all'italiana</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel4.jpeg" class="d-block w-100" alt="accattone">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Accattone</h3>
+        <a href="Denuncia.html" class="link-light">Cinema di denuncia</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel5.jpeg" class="d-block w-100" alt="la dolce vita">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>La dolce vita</h3>
+        <a href="Fellini.html" class="link-light">Stile Felliniano</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+
+    <div>
+      <div class="bg-light p-4 rounded">
+        <div class="col-sm-8 mx-auto">
+          <h4 align="center"><em>Storie e capolavori del cinema italiano</em></h4>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body text-center">
+         <img src="fellini.jpg" class="card-img-top" alt="Federico Fellini">
+           <figure class="text-center">
+           <blockquote class="blockquote">
+          <p><font size="3">“Il cinema non serve a niente, ma distrae dalla realtà che è scadente.”</font></p>
+            </blockquote>
+             <figcaption class="blockquote-footer">
+                <cite title="Source Title">Federico Fellini</cite>
+             </figcaption>
+           </figure>
+        <a href="Fellini.html" class="btn btn-dark">Vai alla sezione dedicata a Fellini</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body text-center">
+        <img src="desica.jpg" class="card-img-top" alt="Vittorio De Sica">
+         <figure class="text-center">
+           <blockquote class="blockquote">
+          <p><font size="3">"Rintracciare il drammatico nelle situazioni quotidiane, il meraviglioso nella piccola cronaca"</font></p>
+            </blockquote>
+             <figcaption class="blockquote-footer">
+               <cite title="Source Title">Vittorio De Sica</cite>
+             </figcaption>
+          </figure>
+        <a href="Neorealismo.html" class="btn btn-dark">Vai alla sezione dedicata al neorealismo</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      
+  </body>
+</html>
